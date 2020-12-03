@@ -48,6 +48,7 @@
 header{
     background-color: var(--primary-color);
     font-family: var(--roboto);
+    width: 1300px;
 }
 
 header .site-title
@@ -110,6 +111,7 @@ margin-right: 6.5rem!important;
 .site-slider
 {
     position: relative;
+    width:1300px;
 }
 .position-top
 {
@@ -178,6 +180,7 @@ margin-right: 6.5rem!important;
 {
     position: relative;
     height: 30%;
+    width: 1300px;
 }
 .site-slider-two .product
 {
@@ -196,7 +199,6 @@ padding: 4rem;
 {
     padding: 10px;
     border-radius: 0.7rem;
-    border: 1px solid var(--border);
     background-color:white;
     color:var(--primary-color);
     margin-top: 30px!important;
@@ -212,6 +214,10 @@ padding: 4rem;
 
 
 /*feature products*/
+.product_items
+{
+    width: 100%;
+}
 .features
 {
     margin-top: 2rem;
@@ -237,6 +243,7 @@ h4{
     flex-basis: 25%;
     margin-bottom: 2rem;
     padding: 1rem;
+    width: 600px;
     transition: transform 0.5s;
 }
 
@@ -345,7 +352,7 @@ filter: grayscale(0);
 .footer{
     background-color: #b3d0e4;
     height: 55vh;
-    width: 1320px;
+    width: 100%;
 }
 
 .widget-title
@@ -369,7 +376,10 @@ filter: grayscale(0);
     color:rgb(37, 16, 16);
     font-weight: 600;
 }
-
+body
+{
+    width:1300px;
+}
 .social-widget i
 {
     color:rgb(19, 13, 13);
@@ -387,10 +397,19 @@ filter: grayscale(0);
 }
 @media only screen and (max-device-width: 480px) {
    /* styles for mobile browsers smaller than 480px; (iPhone) */
+   .copyright
+   {
+       margin-top: 2rem;
+   }
    .footer{
-       width: 480px;
+       width: 1300px;
     background-color: #b3d0e4;
     height: 80vh;
+}
+.items
+{
+    flex-basis: 50%;
+    width: 300px;
 }
    .site-slider-two .product img
     {
@@ -398,7 +417,7 @@ filter: grayscale(0);
     }
     .logo
     {
-        width: 70%;
+        width: 100%;
     }
     h4{
         padding-left: 5rem;
