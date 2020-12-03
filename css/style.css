@@ -406,6 +406,9 @@ body
     background-color: #b3d0e4;
     height: 80vh;
 }
+    .name
+    { margin-top:2rem;
+    }
 .items
 {
     flex-basis: 50%;
